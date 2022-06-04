@@ -8,6 +8,7 @@
     <title>The band</title>
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
     <link rel="stylesheet" href="./assets/css/styleindex.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
 </head>
 
@@ -25,10 +26,10 @@
                 <li><a href="#tour">Tour</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li class="dropdown">
-                    <a href="#">More
+                    <a href="#" class="js-dropdown">More
                         <i class="ti-angle-down btn-down"></i>
                     </a>
-                    <ul class="subnav">
+                    <ul class="subnav js-subnav">
                         <li><a href="#">Merchandise</a></li>
                         <li><a href="#">Extras</a></li>
                         <li><a href="#">Media</a></li>
@@ -39,6 +40,10 @@
             <!-- Search button here -->
             <div class="search">
                 <i class="ti-search"></i>
+            </div>
+
+            <div id="moblie-menu" class="menu-btn">
+                <i class="ti-menu"></i>
             </div>
         </div>
 
@@ -75,15 +80,15 @@
 
                 <!-- Member section here -->
                 <div class="row member-list">
-                    <div class="col col-3 member-box">
+                    <div class="single-col col col-3 mt-16 member-box">
                         <h2 class="member-name">Name</h2>
                         <img src="./assets/img/bandmember.jpg" alt="">
                     </div>
-                    <div class="col col-3 member-box">
+                    <div class="single-col col col-3 mt-16 member-box">
                         <h2 class="member-name">Name</h2>
                         <img src="./assets/img/bandmember.jpg" alt="">
                     </div>
-                    <div class="col col-3 member-box">
+                    <div class="single-col col col-3 mt-16 member-box">
                         <h2 class="member-name">Name</h2>
                         <img src="./assets/img/bandmember.jpg" alt="">
                     </div>
@@ -107,7 +112,7 @@
 
                     <!-- Place list here -->
                     <div class="row place-list">
-                        <div class="col col-3">
+                        <div class="col col-3 single-col mt-16">
                             <img src="./assets/img/newyork.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
@@ -115,11 +120,11 @@
                                 <p class="place-description">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button class="buy-btn js-buy">Buy Tickets</button>
+                                <button class="buy-btn js-buy single-col">Buy Tickets</button>
                             </div>
                         </div>
 
-                        <div class="col col-3">
+                        <div class="col col-3 single-col mt-16">
                             <img src="./assets/img/paris.jpg" alt="Paris" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
@@ -127,11 +132,11 @@
                                 <p class="place-description">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button class="buy-btn js-buy">Buy Tickets</button>
+                                <button class="buy-btn js-buy single-col">Buy Tickets</button>
                             </div>
                         </div>
 
-                        <div class="col col-3">
+                        <div class="col col-3 single-col mt-16">
                             <img src="./assets/img/sanfran.jpg" alt="San Francisco" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
@@ -139,7 +144,7 @@
                                 <p class="place-description">
                                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                                 </p>
-                                <button class="buy-btn js-buy">Buy Tickets</button>
+                                <button class="buy-btn js-buy single-col">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
@@ -151,27 +156,27 @@
                 <h2 class="section-heading">Contact</h2>
                 <p class="section-slogan">Fan? Drop a note!</p>
 
-                <div class="row contact-content">
-                    <div class="col col-2 contact-info">
-                        <p><i class="ti-location-pin"></i>Chicago, US</p>
-                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
-                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                <div class="row contact-content ">
+                    <div class="col single-col col-2 contact-info">
+                        <p><i class="ti-location-pin"></i>Sai Gon, East Laos</p>
+                        <p><i class="ti-mobile"></i>Phone: +00 113</p>
+                        <p><i class="ti-email"></i>Email: thingnguyenngoc1424@gmail.com</p>
                     </div>
 
-                    <div class="col col-2">
+                    <div class="col single-col col-2 form-list">
                         <form action="">
                             <div class="row">
-                                <div class="col col-2">
+                                <div class="col col-2 single-col">
                                     <!-- required dùng để alert khi chưa điền vào form mà ấn send -->
                                     <input type="text" name="" required class="contact-form" placeholder="Name">
                                 </div>
-                                <div class="col col-2">
+                                <div class="col col-2 single-col mb-mt-8">
                                     <input type="email" name="" required class="contact-form" placeholder="Email">
                                 </div>
                             </div>
 
                             <div class="row message-form">
-                                <div class="col col-1">
+                                <div class="col col-1 single-col">
                                     <input type="text" name="" required class="contact-form" placeholder="Message">
                                 </div>
                             </div>
@@ -199,7 +204,7 @@
                 <a href=""><i class="ti-linkedin"></i></a>
             </div>
 
-            <p class="copyright">Powered by <a href="">w3.css</a></p>
+            <p class="copyright">Powered by <a href="">nthingg</a></p>
         </div>
     </div>
 
@@ -248,6 +253,8 @@
     </div>
 
     <script src="./assets/js/buyTicket.js"></script>
+    <script src="./assets/js/header.js"></script>
+    <script src="./assets/js/clickDrop.js"></script>
 
 </body>
 

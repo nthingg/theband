@@ -61,6 +61,7 @@ thẻ div với class clear với thuộc tính clear: both; nữa */
     color: white;
     text-decoration: none;
     border: none;
+    text-align: center;
 }
 
 .move-down {
@@ -69,6 +70,10 @@ thẻ div với class clear với thuộc tính clear: both; nữa */
 
 .float-right {
     float: right;
+}
+
+.mt-16 {
+    margin-top: 16px;
 }
 
 /* .clear {
@@ -113,12 +118,12 @@ thẻ div với class clear với thuộc tính clear: both; nữa */
 }
 
 #navbar .subnav {
-    display: none;
     position: absolute;
     top: 100%;
     left: 0;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: none;
 }
 
 #navbar .dropdown:hover .subnav {
@@ -146,12 +151,22 @@ thẻ div với class clear với thuộc tính clear: both; nữa */
     font-size: 14px;
 }
 
+.menu-btn {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-btn,
 .search {
     float: right;
     color: white;
     line-height: 46px;
     padding: 0 20px;
 }
+
+.menu-btn:hover,
 .search:hover {
     background-color: orangered;
 }
@@ -188,8 +203,11 @@ thẻ div với class clear với thuộc tính clear: both; nữa */
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     padding: 64px 0px;
     margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .section-heading {
@@ -217,7 +235,7 @@ thẻ div với class clear với thuộc tính clear: both; nữa */
 /* Member section có thể dùng display: flex, justify-content: space-around*/
 
 .member-list {
-    padding-top: 48px;
+    padding-top: 32px;
 }
 
 .member-box {
@@ -276,7 +294,7 @@ thẻ div với class clear với thuộc tính clear: both; nữa */
 /* Place list section */
 
 .place-list {
-    margin-top: 32px;
+    margin-top: 16px;
     padding-bottom: 48px;
 }
 
